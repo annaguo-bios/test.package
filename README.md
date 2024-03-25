@@ -107,11 +107,22 @@ be a readme frontpage on github. An example yaml for the README.Rmd file
 is as follows:
 
 ``` r
+---
 title: "README"
 author: "Anna Guo"
-date: "2024-03-25"
-output: github_document:
-  eval: false  # <- This line sets eval = FALSE globally for all code chunks
+date: "`r Sys.Date()`"
+output: 
+  github_document:
+    toc: true
+    number_sections: false
+---
+```
+
+The code below sets global options for the README.Rmd file.
+
+``` r
+library(knitr)
+opts_chunk$set(warning = FALSE, message = FALSE, eval=F)
 ```
 
 ### Step 6: Install the package
