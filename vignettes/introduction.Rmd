@@ -1,0 +1,16 @@
+---
+title: "introduction"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{introduction}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This is a short tutorial on how to use the `test.package` package. 
+
+```{r}
+library(test.package)
+cat_function(love=T)
+
+```
