@@ -1,2 +1,4 @@
 ^test\.package\.Rproj$
 ^\.Rproj\.user$
+^data-raw$
+^R\create.R$
