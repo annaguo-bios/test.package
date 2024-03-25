@@ -1,3 +1,14 @@
-setwd("/Users/apple/Library/CloudStorage/Dropbox/")
+# setwd("/Users/apple/Library/CloudStorage/Dropbox/")
+# library(devtools)
+# devtools::create("test.package")
+#
+# x <- c(1:10)
+# usethis::use_data(x)
+#
+# usethis::use_vignette("introduction")
+#
+# devtools::install()
 
-devtools::create("test.package")
+# library(test.package)
+#
+# cat_function(T)
