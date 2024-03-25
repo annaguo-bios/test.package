@@ -1,0 +1,14 @@
+---
+title: "README"
+author: "Anna Guo"
+date: "2024-03-25"
+output: github_document
+---
+
+This is a short tutorial on how to use the `test.package` package. 
+
+```{r}
+library(test.package)
+cat_function(love=T)
+
+```
