@@ -1,8 +1,10 @@
 #' A Cat Function
 #'
 #' This function allows you to express your love of cats.
-#' @param love Do you love cats? Defaults to TRUE.
+#' @param love Do you love cats? Defaults to `TRUE`.
 #' @keywords cats
+#' @return A string expressing your love of cats.
+#' @import itertools
 #' @export
 #' @examples
 #' cat_function()
